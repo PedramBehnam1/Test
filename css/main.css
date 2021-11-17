@@ -17,7 +17,7 @@ body{
 	margin: 0 auto 0 auto;
 	padding: 0;
 	border: 0;
-	width: 1250px;
+	width: 100%;
 }
 
 header{
@@ -33,27 +33,19 @@ header{
 
 /*1 */
 /*1.1 */
-header div{
-	margin: 0 ;
+header div#div1{
+	position: absolute;
 	
-	padding: 0;
-	border: 0;
-	
-	margin-top:147px;
-	margin-right:-18px;
-	width: 196px;
-	height:150px;
+	top:37%;
+	right:3.5%;
+	width: 19%;
+	height:32%;
 	float:left;
 }
 
 header div img{
-	margin-top: 8px;
-	margin-left: 110px;
-	padding: 0;
-	border: 0;
-	width: 90%;
-	height:150px;
-	float:left;
+	width: 91%;
+
 }
 
 
@@ -72,10 +64,11 @@ header div img{
 */
 
 #header1{
-	margin: -45px -60px ;
-	margin-top:-15px;
-	width: 246px;
-	height:70px;
+	position: absolute;
+	top:-1%;
+	right: 1%;
+	width: 18%;
+	height:15%;
 	float:left;
 }
 /*
@@ -83,18 +76,22 @@ header div img{
 	width: 250px;
 	margin-right:500px;
 }
-*/
+
 #header1 h1{
 	margin-top: 40px;
 	margin-right:20px;
 }
+*/
+header div.menu{
+	position: absolute;
+	height: 11%;
+	width: 13%;
+	top: 12%;
+}
 
 header div.menu ul {
-	
-	
-	margin-right: 12px;
-	margin-top: -97px;
-	width: 150px;
+	position: absolute;
+	top: -15%;
 	
 }
 
@@ -108,14 +105,10 @@ header div.menu ul {
 /*1.3 */
 header div.right_sidbar{
 	position:absolute;
-	margin-right: 3px;
-	top: -43px;
-	padding: 0;
-	border: 0;
-	float:left;
+	top: 26%;
 	display:flex;
 	justify-content: space-between;
-	width: 210px;
+	width: 18%;
 }
 
 #search{
@@ -125,13 +118,14 @@ header div.right_sidbar{
 
 
 div.searchbtn{
+	position: absolute;
 	background-color: #ffec00;
-	margin-top:-1px;
-	width: 50px;
-	margin-right:2px ;
-	border-radius: 5px;
+	top:-8%;
+	width: 12%;
+	right:10% ;
+	border-radius: 26%;
 	font-weight: bold;
-	height: 30px;
+	height: 108%;
 	cursor: pointer;
 }
 
@@ -151,29 +145,24 @@ article{
 	padding: 0;
 	border: 0;
 	width: 1250px;
-	height: 2184px;
+	height: 159vw;
 	background-color: #FFF;
 	box-shadow:5px 5px 5px #555555;
 	border-radius: 10px;
 }
 
-article section{
-	margin: 0px 131px;
-	padding: 0;
-	border: 0;
-	width: 250px;
-	height:195px;
-	float:left;
+article section.image{
+	position: relative;
+	width: 37%;
+	height:8%;
+	top: 0.5%;
+	margin-right: 32%;
 }
 
 
 article section.image #imageId{
-	margin: 0;
-	margin-bottom:800px ;
-	padding: 0;
-	border: 0;
-	width: 250px;
-	height:230px;
+	width: 100%;
+	height:100%;
 	float:left;
 }
 
@@ -206,12 +195,13 @@ article section.image #imageId{
 }
 
 section.position_Of_Iran{
+	position: relative;
 	margin: 0;
-	margin-top:48px;
 	padding: 0;
 	border: 0;
+	top: 0.6%;
 	width: 96%;
-	height:250px;
+	height:12%;
 	float:left;
 }
 
@@ -221,30 +211,28 @@ section.history_Of_Iran{
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:200px;
+	height:16%;
 	float:left;
 	
 }
 
 article section.list{
 	margin: 0;
-	margin-top:188px;
+	margin-top:8%;
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:250px;
+	height:11%;
 	float:left;
 }
 
 section.table{
-	margin: -30px;
+	margin: -4.5%;
 	padding: 0;
 	border: 0;
 	width: 109%;
-	height:800px;
 	float:left;
-	height:835px;
-	float:left;
+	height:33%;
 }
 
 
@@ -254,7 +242,7 @@ section.last_paraghraf{
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:78px;
+	height:4%;
 	float:left;
 	
 }
@@ -264,7 +252,7 @@ section.icons{
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:200px;
+	height:5%;
 	float:left;
 	
 }
@@ -323,7 +311,7 @@ footer{
 	padding: 0;
 	border: 0;
 	width: 1250px;
-	height: 210px;
+	height: 15vw;
 	background-color: #FFF;
 	box-shadow:1px 1px 1px #555555;
 	border-radius: 10px;
@@ -333,8 +321,9 @@ footer{
 
 #movie{
 	position:absolute;
-	margin-top: 36px;
-	left:18px;
+	top: 5%;
+	left:7%;
+	width: 12%;
 	float:left;
 	
 	
@@ -349,10 +338,7 @@ input:focus {
   background-color: #5FC77D;
 }
 
-@media only screen and(min-width: 599px){
-	
-	
-}
+
 
 
 
@@ -367,14 +353,14 @@ input:focus {
 	header{
 		flex: none;
 		
-		width:356px;
+		width:26%;
 		border: 1px solid black;
 	}
 	
 	article{
 		flex: none;
 		
-		width:639px;
+		width: 47.7%;;
 		border: 1px solid black;
 		float:left;
 	}
@@ -384,7 +370,7 @@ input:focus {
 	footer{
 		flex: none;
 		
-		width:346px;
+		width:25.5%;
 		border: 1px solid black;
 	}
 	
