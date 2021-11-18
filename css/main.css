@@ -33,7 +33,7 @@ header{
 
 /*1 */
 /*1.1 */
-header div#div1{
+#div1{
 	position: absolute;
 	
 	top:37%;
@@ -273,7 +273,7 @@ table, th, td{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	width: 65%;
+	width: 50%;
 	height:55px;
 	float:left;
 }
@@ -281,30 +281,35 @@ table, th, td{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	width:50px;
+	width:20%;
 	height:50px;
 	float:left;
 }
 #P1{
-	position:absolute;
-	left:424px;
+	margin-right:34%;
 	
 }
+
+#Right_sidbar_Icon{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width:50%;
+	height:50px;
+	float:left;
+}
+#P2{
+	margin-right:33%;
+}
 #Right_Icon_Id{
-	position:absolute;
 	margin:0 ;
-	margin-top:-18px;
 	padding: 0;
 	border: 0;
 	width:50px;
 	height:50px;
 	float:left;
 }
-#P2{
-	position:absolute;
-	right:471px;
-	margin-top:-6px;
-}
+
 
 footer{
 	margin: 0 auto 0 auto;
@@ -339,13 +344,15 @@ input:focus {
 }
 
 
-
+	*{
+		box-sizing: border-box;
+	}
 
 
 	#wrapper{
 		display:flex;
 		justify-content:center;
-		
+		box-sizing: border-box;
 		
 	}
 	
@@ -355,6 +362,7 @@ input:focus {
 		
 		width:26%;
 		border: 1px solid black;
+		
 	}
 	
 	article{
