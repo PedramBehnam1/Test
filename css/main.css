@@ -24,7 +24,6 @@ header{
 	margin: 0 auto 0 auto;
 	padding: 0;
 	border: 0;
-	width: 1250px;
 	height: 400px;
 	background-color: #FFF;
 	box-shadow:5px 5px 5px #555555;
@@ -34,18 +33,19 @@ header{
 /*1 */
 /*1.1 */
 #div1{
-	position: absolute;
-	
-	top:37%;
-	right:3.5%;
-	width: 19%;
-	height:32%;
+	margin: 0 ;
+	padding: 0;
+	border: 0;
+	width: 53%;
+	height:31%;
 	float:left;
 }
 
 header div img{
-	width: 91%;
-
+	margin: 0 ;
+	padding: 0;
+	border: 0;
+	width: 100%;
 }
 
 
@@ -64,10 +64,7 @@ header div img{
 */
 
 #header1{
-	position: absolute;
-	top:-1%;
-	right: 1%;
-	width: 18%;
+	width: 68%;
 	height:15%;
 	float:left;
 }
@@ -83,15 +80,15 @@ header div img{
 }
 */
 header div.menu{
-	position: absolute;
-	height: 11%;
-	width: 13%;
-	top: 12%;
+	margin: 0 ;
+	padding: 0;
+	border: 0;
+	height: 20%;
+	width: 54%;
 }
 
 header div.menu ul {
-	position: absolute;
-	top: -15%;
+	width: 150px;
 	
 }
 
@@ -104,11 +101,12 @@ header div.menu ul {
 
 /*1.3 */
 header div.right_sidbar{
-	position:absolute;
-	top: 26%;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	display:flex;
 	justify-content: space-between;
-	width: 18%;
+	width: 65%;
 }
 
 #search{
@@ -118,11 +116,8 @@ header div.right_sidbar{
 
 
 div.searchbtn{
-	position: absolute;
 	background-color: #ffec00;
-	top:-8%;
 	width: 12%;
-	right:10% ;
 	border-radius: 26%;
 	font-weight: bold;
 	height: 108%;
@@ -130,9 +125,8 @@ div.searchbtn{
 }
 
 div.searchbtn i#button.fas.fa-search{
-	position: absolute;
 	width: 170%;
-	top: 4%;
+	margin-top: 4%;
 	margin-left:5px ;
 	cursor: pointer;
 }
@@ -358,8 +352,10 @@ input:focus {
 	
 	
 	header{
-		flex: none;
-		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		width:26%;
 		border: 1px solid black;
 		
