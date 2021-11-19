@@ -17,13 +17,14 @@ body{
 	margin: 0 auto 0 auto;
 	padding: 0;
 	border: 0;
-	width: 100%;
+	width: 1250px;
 }
 
 header{
 	margin: 0 auto 0 auto;
 	padding: 0;
 	border: 0;
+	width: 1250px;
 	height: 400px;
 	background-color: #FFF;
 	box-shadow:5px 5px 5px #555555;
@@ -32,20 +33,23 @@ header{
 
 /*1 */
 /*1.1 */
-#div1{
+header div{
 	margin: 0 ;
 	padding: 0;
 	border: 0;
-	width: 53%;
-	height:31%;
+	order: 2;
+	width: 196px;
+	height:64px;
 	float:left;
 }
 
+
 header div img{
-	margin: 0 ;
 	padding: 0;
 	border: 0;
-	width: 100%;
+	width: 90%;
+	height:150px;
+	float:left;
 }
 
 
@@ -63,10 +67,18 @@ header div img{
 }
 */
 
+
+#div2{
+	display: flex;
+	flex-direction: column;
+}
+
+
 #header1{
-	width: 68%;
-	height:15%;
+	width: 246px;
+	height:70px;
 	float:left;
+	order: 2;
 }
 /*
 #header1{
@@ -75,20 +87,10 @@ header div img{
 }
 
 #header1 h1{
-	margin-top: 40px;
-	margin-right:20px;
 }
 */
-header div.menu{
-	margin: 0 ;
-	padding: 0;
-	border: 0;
-	height: 20%;
-	width: 54%;
-}
-
 header div.menu ul {
-	width: 100%;
+	width: 150px;
 	
 }
 
@@ -101,12 +103,12 @@ header div.menu ul {
 
 /*1.3 */
 header div.right_sidbar{
-	margin: 0;
 	padding: 0;
 	border: 0;
+	float:left;
 	display:flex;
 	justify-content: space-between;
-	width: 65%;
+	width: 210px;
 }
 
 #search{
@@ -117,16 +119,18 @@ header div.right_sidbar{
 
 div.searchbtn{
 	background-color: #ffec00;
-	width: 12%;
-	border-radius: 26%;
+	margin-top:-1px;
+	width: 50px;
+	margin-right:2px ;
+	border-radius: 5px;
 	font-weight: bold;
-	height: 108%;
+	height: 30px;
 	cursor: pointer;
 }
 
 div.searchbtn i#button.fas.fa-search{
 	width: 170%;
-	margin-top: 4%;
+	margin-top: 10%;
 	margin-left:5px ;
 	cursor: pointer;
 }
@@ -138,25 +142,29 @@ article{
 	margin: 0 auto 0 auto;
 	padding: 0;
 	border: 0;
-	width: 1250px;
-	height: 159vw;
+	height: 2184px;
 	background-color: #FFF;
 	box-shadow:5px 5px 5px #555555;
 	border-radius: 10px;
 }
 
-article section.image{
-	position: relative;
-	width: 37%;
-	height:8%;
-	top: 0.5%;
-	margin-right: 32%;
+article section{
+	margin: 0px 131px;
+	padding: 0;
+	border: 0;
+	width: 250px;
+	height:220px;
+	float:left;
 }
 
 
 article section.image #imageId{
-	width: 100%;
-	height:100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin-left: 300px;
+	width: 305px;
+	height:230px;
 	float:left;
 }
 
@@ -189,44 +197,44 @@ article section.image #imageId{
 }
 
 section.position_Of_Iran{
-	position: relative;
 	margin: 0;
+	margin-top:48px;
 	padding: 0;
 	border: 0;
-	top: 0.6%;
 	width: 96%;
-	height:12%;
+	height:250px;
 	float:left;
 }
 
 section.history_Of_Iran{
 	margin: 0;
-	margin-top:42px;
 	padding: 0;
 	border: 0;
+	margin-top: 38px;
 	width: 96%;
-	height:16%;
+	height:250px;
 	float:left;
 	
 }
 
 article section.list{
 	margin: 0;
-	margin-top:8%;
+	margin-top:70px;
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:11%;
+	height:235px;
 	float:left;
 }
 
 section.table{
-	margin: -4.5%;
+	margin: -30px;
 	padding: 0;
 	border: 0;
 	width: 109%;
+	height:772px;
 	float:left;
-	height:33%;
+	
 }
 
 
@@ -236,7 +244,7 @@ section.last_paraghraf{
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:4%;
+	height:78px;
 	float:left;
 	
 }
@@ -246,14 +254,16 @@ section.icons{
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:5%;
+	height:200px;
 	float:left;
-	
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-evenly;
 }
 
 table{
-	
-	width:90%;
+	width:50%;
 }
 
 table, th, td{ 
@@ -263,38 +273,27 @@ table, th, td{
 
 
 
-#left_sidbar_Icon{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	width: 50%;
-	height:55px;
-	float:left;
-}
 #left_Icon_Id{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	width:20%;
+	width:50px;
 	height:50px;
 	float:left;
+	order: 2;
 }
 #P1{
-	margin-right:34%;
-	
+	order: 1;
 }
 
-#Right_sidbar_Icon{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	width:50%;
-	height:50px;
-	float:left;
-}
+
+
+
+
 #P2{
-	margin-right:33%;
+	order: 3;
 }
+
 #Right_Icon_Id{
 	margin:0 ;
 	padding: 0;
@@ -302,6 +301,7 @@ table, th, td{
 	width:50px;
 	height:50px;
 	float:left;
+	order: 4;
 }
 
 
@@ -309,8 +309,7 @@ footer{
 	margin: 0 auto 0 auto;
 	padding: 0;
 	border: 0;
-	width: 1250px;
-	height: 15vw;
+	height: 210px;
 	background-color: #FFF;
 	box-shadow:1px 1px 1px #555555;
 	border-radius: 10px;
@@ -319,13 +318,10 @@ footer{
 
 
 #movie{
-	position:absolute;
-	top: 5%;
-	left:7%;
-	width: 12%;
-	float:left;
-	
-	
+	margin: 0 ;
+	padding: 0;
+	border: 0;
+	width: 180px;
 }
 
 ::selection {
@@ -337,44 +333,45 @@ input:focus {
   background-color: #5FC77D;
 }
 
+@media only screen and(min-width: 599px){
+	
+	
+}
 
-	*{
-		box-sizing: border-box;
-	}
 
 
 	#wrapper{
 		display:flex;
 		justify-content:center;
-		box-sizing: border-box;
+		flex-direction: column;
 		
 	}
 	
 	
 	header{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row-reverse;
 		justify-content: center;
-		align-items: center;
-		width:26%;
+		align-items: baseline;
+		width:100%;
 		border: 1px solid black;
-		
 	}
 	
 	article{
 		flex: none;
-		
-		width: 47.7%;;
+		width: 100%;
 		border: 1px solid black;
 		float:left;
+		font-size: 16px;
 	}
 	
 	
 	
 	footer{
-		flex: none;
-		
-		width:25.5%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:100%;
 		border: 1px solid black;
 	}
 	
