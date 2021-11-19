@@ -333,9 +333,19 @@ input:focus {
   background-color: #5FC77D;
 }
 
-@media only screen and(min-width: 599px){
-	
-	
+@media  screen and (max-width: 800px){
+	/*
+	article{
+		background-color: #5FC77D;
+
+	}	
+	*/
+	section.table{
+		height: 830px;
+	}
+	footer{
+		height: 187px;
+	}
 }
 
 
