@@ -244,7 +244,7 @@ section.last_paraghraf{
 	padding: 0;
 	border: 0;
 	width: 96%;
-	height:78px;
+	height:51px;
 	float:left;
 	
 }
@@ -341,7 +341,7 @@ input:focus {
 	}	
 	*/
 	section.table{
-		height: 830px;
+		height: 900px;
 	}
 	footer{
 		height: 187px;
