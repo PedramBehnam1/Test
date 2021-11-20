@@ -11,7 +11,20 @@ body{
 	color:#FFF;
 }
 
-
+body button{
+	position: fixed;
+	bottom: 7px;
+	right: 16px;
+	background-color: cornflowerblue;
+	border-radius: 10px;
+	border: 0;
+	padding: 10px;
+	text-align: center;
+	text-decoration: underline;
+	color: #FFF;
+	font-size: 12px;
+	cursor: pointer;
+}
 
 #wrapper{
 	margin: 0 auto 0 auto;
@@ -41,6 +54,7 @@ header div{
 	width: 200px;
 	height:110px;
 	float:left;
+	margin-right: 166px;
 }
 
 
@@ -381,6 +395,7 @@ input:focus {
 		align-items: baseline;
 		width:100%;
 		border: 1px solid black;
+		justify-content: space-evenly;
 	}
 	
 	article{

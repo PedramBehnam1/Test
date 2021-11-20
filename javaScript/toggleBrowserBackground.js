@@ -1,3 +1,6 @@
+
+
+
 function toggleFunction(){
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -11,3 +14,4 @@ function toggleFunction(){
     element = document.getElementById("footer");
     element.classList.toggle("dark-mode");
 }
+
