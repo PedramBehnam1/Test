@@ -38,7 +38,7 @@ header{
 	padding: 0;
 	border: 0;
 	width: 1250px;
-	height: 400px;
+	height: 255px;
 	background-color: #FFF;
 	box-shadow:5px 5px 5px #555555;
 	border-radius: 10px;
@@ -384,7 +384,7 @@ input:focus {
 		display:flex;
 		justify-content:center;
 		flex-direction: column;
-		height: 2656px;
+		height: 2756px;
 	}
 	
 	
