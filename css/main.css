@@ -233,8 +233,8 @@ section.table{
 	padding: 0;
 	border: 0;
 	width: 100%;
-	min-height: 756px;
-	height:991px;
+	min-height: 700px;
+	height:700px;
 	max-height: 998px;
 	float:left;
 	
@@ -267,8 +267,8 @@ section.icons{
 }
 
 table{
-	width:50%;
-
+	width:80%;
+	height: 50%;
 }
 
 table, th, td{ 
@@ -361,11 +361,7 @@ input:focus {
 
 }
 
-@media screen and (-moz-min-device-pixel-ratio:1) {
-    .body {
-        background-color: black;
-    }
-}
+
 
 
 
